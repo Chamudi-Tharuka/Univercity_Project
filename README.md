@@ -11,11 +11,8 @@ It highlights courses, facilities, campus locations, student testimonials, and a
 ---
 <div align="center">
   
-##  Screenshot
 <p align="center">
-  <img src="https://github.com/Chamudi-Tharuka/Calculator/blob/main/Screenshot%202025-10-17%20155042.png" alt=" Calculator Preview1" width="300">
-  <img src="https://github.com/Chamudi-Tharuka/Calculator/blob/main/Screenshot%202025-10-17%20155134.png" alt=" Calculator Preview2" width="300">
-  <img src="https://github.com/Chamudi-Tharuka/Calculator/blob/main/Screenshot%202025-10-17%20155149.png" alt=" Calculator Preview3" width="300">
+  <img src="https://github.com/Chamudi-Tharuka/Univercity_Project/blob/main/uni.gif" alt=" uniPreview" width="600" height="500">
 </p>
 
 ---
