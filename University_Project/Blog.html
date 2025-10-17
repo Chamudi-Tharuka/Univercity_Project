@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silverstone Uni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--header-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/pngtree-university-logo-in-flat-style-png-image_6402853-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>   
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>      
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Well Come to Silverstone Blog</h1>
+    </section>
+    <!--Blog Page Content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/uniStuent.webp">
+                <h2>Our Blog</h2>
+                <p>
+                    Welcome to the Silverstone University Blog- a space where knowledge meets inspiration. 
+                    Here, we share the latest updates on technology, innovation, and education, as well as insights from 
+                    our faculty, students, and industry partners. From in-depth articles on artificial intelligence, cloud computing, 
+                    and cybersecurity to practical <br> tips for career growth and personal development, our blog is designed to keep you 
+                    informed and inspired. Whether you’re a student, professional, or simply passionate about the future of technology, 
+                    you’ll find valuable resources, success stories, and thought-provoking ideas that reflect the spirit of learning and 
+                    discovery at Silverstone University
+                </p><br><br>
+                <p>At Silverstone University, we believe that education goes beyond textbooks. 
+                    Our blog highlights real-world experiences from students and alumni who are 
+                    making an impact in the IT industry. From internship journeys at global tech companies 
+                    to groundbreaking research projects, these stories provide inspiration and motivation 
+                    for learners everywhere.</p><br><br>
+                    
+                    <p>We also bring you expert perspectives from our faculty and guest speakers who share 
+                    their knowledge on emerging technologies such as artificial intelligence, data science, 
+                    blockchain, and cloud computing. These insights are carefully written to simplify 
+                    complex topics and help readers understand how technology is shaping the world around us.</p>
+                    <br><br>
+                    <p>In addition to technology and research, our blog covers campus life, events, and 
+                    student activities that make the Silverstone experience unique. From hackathons and coding 
+                    competitions to cultural festivals and leadership workshops, we give you a glimpse of the 
+                    vibrant community that makes learning here exciting and memorable.</p>
+                    <br><br><br><br>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="7" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn ">Post Comment</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>journalism</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>E-Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+  
+   
+    
+    <!--footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are committed to providing top-notch IT education that empowers students <br>to excel in the ever-evolving tech landscape. Our programs are designed to foster innovation, critical thinking, and practical skills.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Silverstone University</p>
+    </section>
+
+    <!--javascript--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
